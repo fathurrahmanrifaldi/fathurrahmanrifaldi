@@ -1,5 +1,5 @@
 import { motion, type Variants } from "framer-motion";
-import { Database, Cpu, MonitorSmartphone, User } from "lucide-react";
+import { Database, Cpu, MonitorSmartphone } from "lucide-react";
 import { personal } from "../../data/personal";
 import SectionHeading from "../ui/SectionHeading";
 import Card from "../ui/Card";
@@ -63,13 +63,11 @@ export default function About() {
             <div className="relative max-w-sm mx-auto lg:mx-0">
               <div className="relative rounded-2xl overflow-hidden border border-border group">
                 <div className="aspect-[4/5] bg-gradient-to-br from-bg-card to-bg-secondary flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-accent-cyan/20 to-accent-violet/20 border border-border flex items-center justify-center mb-6">
-                      <User className="w-16 h-16 text-accent-cyan/60" />
-                    </div>
-                    <p className="text-sm text-text-muted">{personal.name}</p>
-                    <p className="text-xs text-text-muted mt-1">{personal.title}</p>
-                  </div>
+                  <img
+                    src={personal.profileImage}
+                    alt={`Profile photo of ${personal.name}`}
+                    className="h-full w-full object-cover"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-accent-cyan/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>

@@ -1,3 +1,5 @@
+import profileImage from "../assets/fathur.jpg";
+
 export const personal = {
   name: "Fathur Rahman Rifaldi",
   firstName: "Fathur",
@@ -9,7 +11,7 @@ export const personal = {
   location: "Bekasi, Indonesia",
   github: "https://github.com/fathurrahmanrifaldi",
   linkedin: "https://linkedin.com/in/fathurrahmanrifaldi",
-  profileImage: "/profile-placeholder.webp",
+  profileImage,
   resumeUrl: "#",
   bio: [
     "A final-year Information Systems student specialising in database management, digital data administration, and the maintenance and analysis of information system issues.",
@@ -40,6 +42,6 @@ export const personal = {
     description:
       "Portfolio of Fathur Rahman Rifaldi — Information Systems student passionate about technology, data analytics, and building meaningful digital solutions.",
     ogImage: "/og-image.png",
-    url: "https://fathurspace.vercel.app",
+    url: "https://fathurrahmanrifaldi.vercel.app",
   },
 } as const;
