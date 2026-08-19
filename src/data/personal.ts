@@ -1,0 +1,45 @@
+export const personal = {
+  name: "Fathur Rahman Rifaldi",
+  firstName: "Fathur",
+  lastName: "Rifaldi",
+  title: "Information Systems Student",
+  tagline: "Building at the intersection of Technology, Data & Business.",
+  email: "[EMAIL_ADDRESS]",
+  university: "Universitas Bina Sarana Informatika",
+  location: "Bekasi, Indonesia",
+  github: "https://github.com/fathurrahmanrifaldi",
+  linkedin: "https://linkedin.com/in/fathurrahmanrifaldi",
+  profileImage: "/profile-placeholder.webp",
+  resumeUrl: "#",
+  bio: [
+    "I'm an Information Systems student who thrives at the crossroads of business and technology. My work focuses on turning complex data into actionable insights and building digital solutions that solve real problems.",
+    "Currently exploring the full spectrum of modern tech — from data analytics and visualization to full-stack development. I believe the best solutions come from understanding both the systems we build and the people who use them.",
+    "When I'm not coding or analyzing datasets, I'm diving into emerging technologies, contributing to projects, and constantly expanding my skill set.",
+  ],
+  currentFocus: [
+    "Data Analytics & Visualization",
+    "Full-Stack Web Development",
+    "Information Systems Design",
+    "Business Intelligence",
+  ],
+  careerInterests: [
+    "Data Analyst",
+    "Software Developer",
+    "Business Intelligence Analyst",
+    "Systems Analyst",
+    "Technology Consultant",
+  ],
+  stats: {
+    projectsCompleted: 12,
+    technologiesExplored: 25,
+    certifications: 5,
+    yearsLearning: 3,
+  },
+  seo: {
+    title: "Fathur Rahman Rifaldi — Information Systems Student | Technology & Data",
+    description:
+      "Portfolio of Fathur Rahman Rifaldi — Information Systems student passionate about technology, data analytics, and building meaningful digital solutions.",
+    ogImage: "/og-image.png",
+    url: "https://fathurspace.vercel.app",
+  },
+} as const;
