@@ -30,59 +30,58 @@ export const projectCategories: ProjectCategory[] = [
   "All",
   "Data",
   "Web",
-  "System",
-  "UI/UX",
 ];
 
 export const projects: Project[] = [
   {
-    id: "student-performance-analytics",
-    title: "Student Performance Analytics Dashboard",
+    id: "online-retail",
+    title: "Analisis & Pengolahan Data Ritel Skala Besar",
     shortDescription:
-      "Interactive analytics dashboard that visualizes student academic performance patterns, identifying key factors affecting learning outcomes.",
+      "Melakukan pembersihan, pengolahan, dan analisis dataset transaksi ritel (25.000+ baris) menggunakan Excel. Mencakup penanganan data anomali, penyusunan laporan terdokumentasi, serta troubleshooting kendala teknis pengolahan data dan menghasilkan insight bisnis yang actionable.",
     category: "Data",
-    techStack: ["Python", "Pandas", "Power BI", "SQL", "Excel"],
-    image: "/projects/analytics-dashboard.webp",
-    githubUrl: "https://github.com/YOUR_GITHUB/student-analytics",
-    impact: "Analyzed 1,000+ student records to identify 5 key performance drivers",
+    techStack: ["Excel", "Power BI"],
+    image: "/projects/online-retail.webp",
+    githubUrl: "https://github.com/fathurrahmanrifaldi/online-retail-transaction-analysis",
+    impact: "Mengidentifikasi total pendapatan bersih sebesar £10.259.030,24 dari 19.776 transaksi dengan rata-rata nilai pesanan (AOV) sebesar £518,76..",
     caseStudy: {
       problem:
-        "Educational institutions lack visibility into the factors that most significantly impact student academic performance, making it difficult to provide targeted interventions.",
-      goal: "Build an interactive dashboard that transforms raw academic data into actionable insights for educators and administrators.",
+        "Bisnis ritel online memiliki volume data transaksi mentah yang sangat besar (>25.000 baris) namun belum terstruktur dan masih mengandung banyak noise (duplikasi, transaksi batal, penyesuaian stok, dan anomali data non-penjualan)",
+      goal: "Mengaudit dan membersihkan dataset transaksi menjadi basis data analitis yang valid dan siap olah, serta Merumuskan rekomendasi bisnis strategis yang konkret untuk meningkatkan pendapatan, retensi pelanggan, dan efisiensi operasional rantai pasok.",
       solution:
-        "Developed a comprehensive analytics pipeline that cleans, processes, and visualizes student data across multiple dimensions including demographics, study habits, and course engagement.",
+        "Membangun workbook analisis terstruktur menggunakan Microsoft Excel yang memisahkan data transaksi bersih, data pembatalan (cancellation), log audit pembersihan, tabel agregasi pivot, dan ringkasan eksekutif.",
       process: [
-        "Collected and cleaned student performance dataset",
-        "Performed exploratory data analysis with Python and Pandas",
-        "Designed data models and created SQL queries for key metrics",
-        "Built interactive Power BI dashboards with drill-down capabilities",
-        "Documented findings and recommendations",
+        "Menghapus 5.268 baris duplikasi identik (exact duplicates).",
+        "Memisahkan 9.251 baris transaksi batal (faktur berawalan 'C') ke lembar kerja terpisah.",
+        "Menghitung metrik total omzet, rata-rata nilai pesanan (AOV), total volume transaksi, dan katalog produk aktif",
+        "Mengagregasi data bulanan untuk melihat tren musiman dan dampak holiday season.",
+        "Membentuk tabel matriks RFM (Recency, Frequency, Monetary) pada pelanggan terdaftar untuk mengidentifikasi segmen bernilai tinggi (high-value customers)",
+        "Menyusun laporan ringkasan eksekutif dan menerjemahkan temuan data menjadi rekomendasi operasional serta strategi pemasaran.",
       ],
       technology:
-        "Python for data processing, Pandas for data manipulation, SQL for querying, Power BI for visualization, Excel for initial exploration.",
+        "Microsoft Excel: Digunakan secara menyeluruh untuk data cleaning, pemodelan formula/KPI (SUM, COUNTIF, AVERAGE, dll.), perancangan Pivot Tables, serta visualisasi dan penyusunan struktur laporan.",
       result:
-        "Delivered a dashboard that revealed attendance and study hours as the top 2 performance predictors, enabling data-driven academic support strategies.",
+        "Mengidentifikasi total pendapatan bersih sebesar £10.259.030,24 dari 19.776 transaksi dengan rata-rata nilai pesanan (AOV) sebesar £518,76 dan Terpetakan lonjakan pendapatan signifikan pada Q4 (Sep–Nov 2011) dengan puncak di November 2011 (~£1,45 Juta) akibat belanja Natal.",
       lessonsLearned:
-        "Learned the importance of data quality in analytics projects. Clean data is the foundation of meaningful insights. Also gained experience in translating technical findings into business-friendly visualizations.",
+        "Pentingnya Data Bersih: Membuktikan bahwa kualitas data—melalui proses cleaning yang cermat—adalah fondasi utama untuk menghasilkan analisis yang akurat dan insight bisnis yang valid. Kemampuan Menerjemahkan Data menjadi Narasi Bisnis: Belajar mengubah tabel dan angka mentah menjadi laporan strategis yang mudah dipahami oleh pengambil keputusan, termasuk identifikasi tren musiman dan rekomendasi taktis berbasis data.",
     },
   },
   {
     id: "task-management-app",
-    title: "Collaborative Task Management Platform",
+    title: "Sistem Informasi Manajemen BASARA (Bank Sampah RW 42)",
     shortDescription:
-      "Full-stack web application for team task management with real-time updates, role-based access, and project tracking capabilities.",
+      "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
     category: "Web",
-    techStack: ["React", "TypeScript", "Next.js", "Tailwind CSS", "PostgreSQL"],
+    techStack: ["Laravel", "Tailwind CSS", "MySQL"],
     image: "/projects/task-management.webp",
-    githubUrl: "https://github.com/YOUR_GITHUB/task-manager",
-    liveUrl: "https://your-task-app.vercel.app",
-    impact: "Built a production-ready app supporting 50+ concurrent users",
+    githubUrl: "https://github.com/fathurrahmanrifaldi/basara",
+    liveUrl: "https://fathurrahmanrifaldi.vercel.app",
+    impact: "100% Digitalisasi Operasional:** Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
     caseStudy: {
       problem:
-        "Small teams often struggle with coordinating tasks across members, leading to missed deadlines and duplicated efforts.",
-      goal: "Create an intuitive, responsive task management platform that enables seamless team collaboration.",
+        "Pengelolaan operasional bank sampah masih mengandalkan pencatatan buku besar secara manual. Hal ini menyebabkan potensi kesalahan input, kesulitan dalam penelusuran riwayat transaksi, serta ketidakmampuan untuk mendapatkan gambaran data yang real-time dan akurat mengenai kinerja bank sampah, termasuk jumlah nasabah aktif, jenis dan volume sampah yang terkumpul, serta total poin atau nilai finansial yang terakumulasi.",
+      goal: "Membangun sebuah sistem informasi berbasis web yang mampu mendigitalisasi, mengotomatiskan, dan mengintegrasikan seluruh proses operasional bank sampah, mulai dari pendataan nasabah, pencatatan jenis sampah, input dan validasi transaksi setoran, perhitungan saldo (poin), hingga visualisasi data dalam bentuk laporan dan dashboard.",
       solution:
-        "Built a full-stack application using modern web technologies with a focus on real-time collaboration, clean UI, and scalable architecture.",
+        "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
       process: [
         "Gathered requirements and designed user flows",
         "Created database schema and API architecture",
@@ -99,80 +98,6 @@ export const projects: Project[] = [
     },
   },
   {
-    id: "inventory-management-system",
-    title: "Inventory Management System Design",
-    shortDescription:
-      "Complete system analysis and design for a small-business inventory management system, including ER diagrams, data flow diagrams, and UI prototypes.",
-    category: "System",
-    techStack: [
-      "System Analysis",
-      "UML",
-      "ERD",
-      "MySQL",
-      "Figma",
-    ],
-    image: "/projects/inventory-system.webp",
-    githubUrl: "https://github.com/YOUR_GITHUB/inventory-system",
-    impact: "Designed a system reducing manual inventory tracking by 70%",
-    caseStudy: {
-      problem:
-        "A small retail business relied on spreadsheets for inventory management, resulting in stock discrepancies, delayed reorders, and lost revenue.",
-      goal: "Design a complete information system that automates inventory tracking, generates reorder alerts, and provides stock analytics.",
-      solution:
-        "Conducted full system analysis following SDLC methodology, producing comprehensive documentation and database design for an inventory management system.",
-      process: [
-        "Conducted stakeholder interviews and requirements gathering",
-        "Created use case diagrams and data flow diagrams",
-        "Designed entity-relationship diagrams and normalized database",
-        "Developed UI/UX prototypes in Figma",
-        "Documented system specifications and implementation plan",
-      ],
-      technology:
-        "UML for system modeling, MySQL Workbench for database design, Figma for UI prototyping, draw.io for diagrams.",
-      result:
-        "Produced a complete system design document including database schema, API specifications, and clickable prototypes ready for development implementation.",
-      lessonsLearned:
-        "Understanding business processes deeply before designing technical solutions leads to better systems. The gap between business needs and technical requirements is where Information Systems expertise is most valuable.",
-    },
-  },
-  {
-    id: "portfolio-redesign",
-    title: "E-Commerce UX Redesign",
-    shortDescription:
-      "User experience research and interface redesign for a local e-commerce platform, improving usability and conversion flow.",
-    category: "UI/UX",
-    techStack: [
-      "Figma",
-      "User Research",
-      "Wireframing",
-      "Prototyping",
-      "Usability Testing",
-    ],
-    image: "/projects/ux-redesign.webp",
-    githubUrl: "https://github.com/YOUR_GITHUB/ecommerce-redesign",
-    impact: "Redesign projected to improve checkout completion by 35%",
-    caseStudy: {
-      problem:
-        "A local e-commerce platform experienced high cart abandonment rates due to a confusing checkout flow and inconsistent design patterns.",
-      goal: "Redesign the user experience to reduce friction in the purchase journey and improve overall usability scores.",
-      solution:
-        "Conducted user research, created personas, and redesigned the complete checkout flow with a focus on clarity, trust signals, and mobile-first design.",
-      process: [
-        "Conducted heuristic evaluation of the existing platform",
-        "Performed user interviews and surveys",
-        "Created user personas and journey maps",
-        "Designed wireframes and high-fidelity prototypes",
-        "Conducted usability testing and iterated on feedback",
-      ],
-      technology:
-        "Figma for design and prototyping, Maze for usability testing, Miro for user journey mapping.",
-      result:
-        "Delivered a comprehensive redesign with 15+ screens, a design system, and usability test results showing 40% faster task completion in the checkout flow.",
-      lessonsLearned:
-        "Good UX design is invisible — users should focus on their goals, not on figuring out the interface. Data from usability testing is more valuable than design assumptions.",
-    },
-  },
-  {
     id: "sales-bi-dashboard",
     title: "Sales Business Intelligence Report",
     shortDescription:
@@ -180,7 +105,7 @@ export const projects: Project[] = [
     category: "Data",
     techStack: ["Power BI", "SQL", "Excel", "DAX", "Data Modeling"],
     image: "/projects/bi-dashboard.webp",
-    githubUrl: "https://github.com/YOUR_GITHUB/sales-bi",
+    githubUrl: "https://github.com/fathurrahmanrifaldi",
     impact: "Identified 3 underperforming regions driving revenue optimization",
     caseStudy: {
       problem:

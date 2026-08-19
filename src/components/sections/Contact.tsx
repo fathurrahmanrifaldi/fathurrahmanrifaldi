@@ -204,9 +204,6 @@ export default function Contact() {
                   Send Message
                 </Button>
 
-                <p className="text-[11px] text-text-muted text-center">
-                  This form is a frontend demo. Integrate with EmailJS or Formspree for real delivery.
-                </p>
               </form>
             )}
           </motion.div>

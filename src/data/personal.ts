@@ -4,7 +4,7 @@ export const personal = {
   lastName: "Rifaldi",
   title: "Information Systems Student",
   tagline: "Building at the intersection of Technology, Data & Business.",
-  email: "[EMAIL_ADDRESS]",
+  email: "fathurrahmanrifaldi@gmail.com",
   university: "Universitas Bina Sarana Informatika",
   location: "Bekasi, Indonesia",
   github: "https://github.com/fathurrahmanrifaldi",
@@ -12,9 +12,9 @@ export const personal = {
   profileImage: "/profile-placeholder.webp",
   resumeUrl: "#",
   bio: [
-    "I'm an Information Systems student who thrives at the crossroads of business and technology. My work focuses on turning complex data into actionable insights and building digital solutions that solve real problems.",
-    "Currently exploring the full spectrum of modern tech — from data analytics and visualization to full-stack development. I believe the best solutions come from understanding both the systems we build and the people who use them.",
-    "When I'm not coding or analyzing datasets, I'm diving into emerging technologies, contributing to projects, and constantly expanding my skill set.",
+    "A final-year Information Systems student specialising in database management, digital data administration, and the maintenance and analysis of information system issues.",
+    "BNSP-certified (Database Administrator) with practical experience in managing relational database integration, validating thousands of rows of data via Excel/SQL, and compiling technical documentation modules.",
+    "Possesses systematic analytical thinking, a high degree of attention to detail, and effective communication skills to support the day-to-day running of information technology services within the Human Resources Bureau.",
   ],
   currentFocus: [
     "Data Analytics & Visualization",
@@ -30,9 +30,9 @@ export const personal = {
     "Technology Consultant",
   ],
   stats: {
-    projectsCompleted: 12,
-    technologiesExplored: 25,
-    certifications: 5,
+    projectsCompleted: 10,
+    technologiesExplored: 8,
+    certifications: 3,
     yearsLearning: 3,
   },
   seo: {

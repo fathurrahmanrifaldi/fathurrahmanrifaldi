@@ -23,11 +23,10 @@ import { useReducedMotion } from "../../hooks/useReducedMotion";
 /* ===== Dummy Data ===== */
 const technologyUsage = [
   { name: "Python", value: 85, fill: "#06B6D4" },
-  { name: "JavaScript", value: 78, fill: "#3B82F6" },
-  { name: "SQL", value: 72, fill: "#8B5CF6" },
-  { name: "React", value: 65, fill: "#10B981" },
-  { name: "Power BI", value: 58, fill: "#F59E0B" },
-  { name: "TypeScript", value: 52, fill: "#EC4899" },
+  { name: "SQL", value: 78, fill: "#3B82F6" },
+  { name: "JavaScript", value: 72, fill: "#8B5CF6" },
+  { name: "PHP", value: 65, fill: "#10B981" },
+  { name: "Power BI", value: 58, fill: "#F59E0B" }, 
 ];
 
 const learningHours = [
@@ -59,9 +58,9 @@ const techInterest = [
 
 const kpis = [
   { label: "Most Used Tech", value: "Python", icon: TrendingUp, color: "text-accent-cyan" },
-  { label: "Monthly Avg Hours", value: "71h", icon: Clock, color: "text-accent-violet" },
-  { label: "Total Projects", value: "12", icon: FolderKanban, color: "text-accent-emerald" },
-  { label: "Collaborations", value: "8", icon: Users, color: "text-accent-blue" },
+  { label: "Monthly Avg Hours", value: "64h", icon: Clock, color: "text-accent-violet" },
+  { label: "Total Projects", value: "10", icon: FolderKanban, color: "text-accent-emerald" },
+  { label: "Collaborations", value: "6", icon: Users, color: "text-accent-blue" },
 ];
 
 /* eslint-disable @typescript-eslint/no-explicit-any */

@@ -14,36 +14,8 @@ export interface SkillCategory {
 
 export const skillCategories: SkillCategory[] = [
   {
-    id: "programming",
-    title: "Programming",
-    icon: "Code2",
-    description: "Core languages for building solutions",
-    skills: [
-      {
-        name: "Python",
-        icon: "FileCode",
-        description: "Data analysis, scripting, and automation",
-      },
-      {
-        name: "JavaScript",
-        icon: "Braces",
-        description: "Interactive web applications and dynamic UIs",
-      },
-      {
-        name: "TypeScript",
-        icon: "FileType",
-        description: "Type-safe development for scalable applications",
-      },
-      {
-        name: "SQL",
-        icon: "Database",
-        description: "Database querying and data manipulation",
-      },
-    ],
-  },
-  {
     id: "data",
-    title: "Data & Analytics",
+    title: "Data & Office",
     icon: "BarChart3",
     description: "Turning data into actionable insights",
     skills: [
@@ -53,7 +25,7 @@ export const skillCategories: SkillCategory[] = [
         description: "Advanced analysis, pivot tables, and modeling",
       },
       {
-        name: "Python Pandas",
+        name: "Google Workspace",
         icon: "FileSpreadsheet",
         description: "Data wrangling and transformation at scale",
       },
@@ -75,6 +47,24 @@ export const skillCategories: SkillCategory[] = [
     ],
   },
   {
+    id: "programming",
+    title: "Programming",
+    icon: "Code2",
+    description: "Core languages for building solutions",
+    skills: [
+      {
+        name: "Python",
+        icon: "FileCode",
+        description: "Data analysis, scripting, and automation",
+      },
+      {
+        name: "SQL",
+        icon: "Database",
+        description: "Database querying and data manipulation",
+      },
+    ],
+  },
+  {
     id: "development",
     title: "Development",
     icon: "Laptop",
@@ -85,15 +75,11 @@ export const skillCategories: SkillCategory[] = [
         icon: "Layout",
         description: "Semantic markup and responsive styling",
       },
+
       {
-        name: "React",
-        icon: "Atom",
-        description: "Component-based UI development",
-      },
-      {
-        name: "Next.js",
+        name: "Laravel",
         icon: "Globe",
-        description: "Full-stack React framework with SSR/SSG",
+        description: "Backend",
       },
       {
         name: "Git & GitHub",
@@ -102,6 +88,7 @@ export const skillCategories: SkillCategory[] = [
       },
     ],
   },
+
   {
     id: "information-systems",
     title: "Information Systems",

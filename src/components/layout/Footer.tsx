@@ -52,7 +52,7 @@ export default function Footer() {
           <div className="flex flex-col items-center gap-2 text-xs text-text-muted">
             <p className="flex items-center gap-1">
               Designed & Built with{" "}
-              <Heart className="w-3 h-3 text-accent-cyan fill-accent-cyan" /> curiosity.
+              <Heart className="w-3 h-3 text-accent-cyan fill-accent-cyan" /> fathur.
             </p>
             <p>© {currentYear} {personal.name}. All rights reserved.</p>
           </div>
