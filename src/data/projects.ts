@@ -99,33 +99,33 @@ export const projects: Project[] = [
   },
   {
     id: "sales-bi-dashboard",
-    title: "Sales Business Intelligence Report",
+    title: "Superstore Sales Analysis",
     shortDescription:
-      "Business intelligence solution analyzing sales data across regions, products, and time periods to identify growth opportunities.",
+      "Analisis data penjualan Superstore (2015–2018) menggunakan Excel, mulai dari data cleaning, pivot summary, visualisasi, hingga dashboard interaktif dan rekomendasi bisnis.",
     category: "Data",
-    techStack: ["Power BI", "SQL", "Excel", "DAX", "Data Modeling"],
+    techStack: ["Excel", "Data Cleaning", "Pivot Tables", "Power BI"],
     image: "/projects/bi-dashboard.webp",
-    githubUrl: "https://github.com/fathurrahmanrifaldi",
-    impact: "Identified 3 underperforming regions driving revenue optimization",
+    githubUrl: "https://github.com/fathurrahmanrifaldi/Superstore_Sales_Analysis",
+    impact: "Mengidentifikasi kategori dan produk dengan performa terbaik, Mengetahui region dan segmen pelanggan yang memberikan kontribusi terbesar, Memahami pola tren dan musim penjualan, serta Menentukan area yang memiliki peluang untuk dikembangkan.",
     caseStudy: {
       problem:
-        "A company's sales data was siloed across multiple spreadsheets, making it impossible to get a unified view of business performance.",
-      goal: "Create a centralized BI solution that provides real-time sales insights and supports data-driven decision-making.",
+        "Data transaksi Superstore periode 2015–2018 terdiri dari 9.800 baris transaksi dengan berbagai informasi seperti pelanggan, produk, wilayah, penjualan, dan pengiriman.",
+      goal: "mengubah data transaksi menjadi informasi dan insight bisnis yang mudah dipahami, sehingga dapat membantu proses pengambilan keputusan terkait produk, pelanggan, wilayah, tren penjualan, dan strategi pengiriman",
       solution:
-        "Built an end-to-end BI pipeline from data consolidation through interactive dashboard delivery, with automated data refresh.",
+        "Membangun Superstore Sales Analysis Dashboard menggunakan Microsoft Excel yang mencakup: data cleaning, pivot summary, visualisasi, dan dashboard interaktif untuk memberikan insight bisnis yang actionable.",
       process: [
-        "Consolidated data from multiple Excel sources",
-        "Designed a star-schema data model",
-        "Created DAX measures for KPIs",
-        "Built multi-page Power BI dashboard",
-        "Presented findings to stakeholders",
+        "pengecekan duplikat & missing value, konversi format tanggal, penambahan kolom turunan (Order Year, Month, YearMonth, Ship Duration).",
+        "ringkasan penjualan per Category, Region, Segment, Ship Mode, dan Sub-Category menggunakan formula dinamis (SUMIF, COUNTIF, AVERAGEIF).",
+        "Visualization** — bar chart, line chart, dan pie chart untuk melihat tren dan komposisi penjualan.",
+        "ringkasan interaktif dengan KPI cards dan kumpulan chart dalam satu tampilan.",
+        "temuan bisnis dan rekomendasi strategis berdasarkan hasil analisis",
       ],
       technology:
-        "Power BI for visualization, DAX for calculations, SQL for data extraction, Excel for data preparation.",
+        "Microsoft Excel (formula: `SUMIF`, `COUNTIF`, `AVERAGEIF`, Excel Table, PivotChart)",
       result:
-        "Delivered an interactive dashboard enabling real-time tracking of revenue, margins, and regional performance. Stakeholders gained the ability to self-serve analytics.",
+        "Mengidentifikasi kategori produk dengan penjualan tertinggi, tren musiman, dan rekomendasi strategi pemasaran untuk meningkatkan pendapatan.",
       lessonsLearned:
-        "A well-designed data model is the backbone of any BI solution. Investing time in proper data modeling pays off exponentially in report performance and flexibility.",
+        "Dari project ini, saya belajar bahwa data cleaning merupakan fondasi penting sebelum melakukan analisis karena kualitas data sangat memengaruhi hasil insight, Selain itu, saya belajar bagaimana mengubah data mentah menjadi summary, visualisasi, dashboard, dan rekomendasi bisnis yang lebih mudah dipahami.",
     },
   },
 ];
