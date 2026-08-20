@@ -111,9 +111,9 @@ export const skillCategories: SkillCategory[] = [
         description: "Mapping and optimizing organizational processes",
       },
       {
-        name: "UI/UX Design",
-        icon: "Figma",
-        description: "User-centered interface and experience design",
+        name: "Ubuntu Server",
+        icon: "Server",
+        description: "Managing and maintaining Ubuntu servers",
       },
       {
         name: "Requirements Analysis",

@@ -24,12 +24,24 @@ export default function Projects() {
       : projects.filter((p) => p.category === activeFilter);
 
   return (
-    <section id="projects" className="relative py-24 lg:py-32" aria-label="Projects">
+    <section
+      id="projects"
+      className="relative py-24 lg:py-32"
+      aria-label="Projects"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading title="Featured Projects" subtitle="Selected work" gradient="cyan" />
+        <SectionHeading
+          title="Featured Projects"
+          subtitle="Selected work"
+          gradient="cyan"
+        />
 
         {/* Filter tabs */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12" role="tablist" aria-label="Filter projects by category">
+        <div
+          className="flex flex-wrap justify-center gap-2 mb-12"
+          role="tablist"
+          aria-label="Filter projects by category"
+        >
           {projectCategories.map((category) => (
             <button
               key={category}
@@ -40,7 +52,7 @@ export default function Projects() {
                 "px-5 py-2 text-sm font-medium rounded-lg transition-all duration-300 cursor-pointer",
                 activeFilter === category
                   ? "bg-accent-cyan/10 text-accent-cyan border border-accent-cyan/30"
-                  : "text-text-muted border border-transparent hover:text-text-primary hover:bg-bg-card"
+                  : "text-text-muted border border-transparent hover:text-text-primary hover:bg-bg-card",
               )}
             >
               {category}
@@ -55,7 +67,9 @@ export default function Projects() {
               <motion.article
                 key={project.id}
                 layout
-                initial={prefersReduced ? undefined : { opacity: 0, scale: 0.95 }}
+                initial={
+                  prefersReduced ? undefined : { opacity: 0, scale: 0.95 }
+                }
                 animate={{ opacity: 1, scale: 1 }}
                 exit={prefersReduced ? undefined : { opacity: 0, scale: 0.95 }}
                 transition={{ duration: 0.3 }}
@@ -87,16 +101,23 @@ export default function Projects() {
 
                   <div className="flex flex-wrap gap-1.5">
                     {project.techStack.slice(0, 4).map((tech) => (
-                      <span key={tech} className="px-2 py-0.5 text-[11px] font-medium text-text-muted bg-bg-secondary rounded border border-border">
+                      <span
+                        key={tech}
+                        className="px-2 py-0.5 text-[11px] font-medium text-text-muted bg-bg-secondary rounded border border-border"
+                      >
                         {tech}
                       </span>
                     ))}
                     {project.techStack.length > 4 && (
-                      <span className="px-2 py-0.5 text-[11px] text-text-muted">+{project.techStack.length - 4}</span>
+                      <span className="px-2 py-0.5 text-[11px] text-text-muted">
+                        +{project.techStack.length - 4}
+                      </span>
                     )}
                   </div>
 
-                  <p className="text-xs text-accent-emerald font-medium">↗ {project.impact}</p>
+                  <p className="text-xs text-accent-emerald font-medium">
+                    ↗ {project.impact}
+                  </p>
 
                   <div className="flex items-center justify-between pt-2 border-t border-border">
                     <div className="flex gap-2">
@@ -136,7 +157,10 @@ export default function Projects() {
         </motion.div>
       </div>
 
-      <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
+      <ProjectModal
+        project={selectedProject}
+        onClose={() => setSelectedProject(null)}
+      />
     </section>
   );
 }
