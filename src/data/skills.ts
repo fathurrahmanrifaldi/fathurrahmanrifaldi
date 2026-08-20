@@ -27,18 +27,18 @@ export const skillCategories: SkillCategory[] = [
       {
         name: "Google Workspace",
         icon: "FileSpreadsheet",
-        description: "Data wrangling and transformation at scale",
+        description: "Collaboration and productivity tools for teams",
+      },
+      {
+        name: "Microsoft Office Suite",
+        icon: "AreaChart",
+        description: "Document creation, presentations, and spreadsheets",
       },
       {
         name: "Power BI",
         icon: "PieChart",
         description: "Business intelligence dashboards and reports",
-      },
-      {
-        name: "Tableau",
-        icon: "AreaChart",
-        description: "Data storytelling through visual analytics",
-      },
+      },      
       {
         name: "Data Visualization",
         icon: "LineChart",
@@ -79,7 +79,7 @@ export const skillCategories: SkillCategory[] = [
       {
         name: "Laravel",
         icon: "Globe",
-        description: "Backend",
+        description: "PHP framework for web application development",
       },
       {
         name: "Git & GitHub",

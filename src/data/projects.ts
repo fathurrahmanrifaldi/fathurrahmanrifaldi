@@ -75,7 +75,7 @@ export const projects: Project[] = [
     image: "/projects/task-management.webp",
     githubUrl: "https://github.com/fathurrahmanrifaldi/basara",
     liveUrl: "https://fathurrahmanrifaldi.vercel.app",
-    impact: "100% Digitalisasi Operasional:** Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
+    impact: "100% Digitalisasi Operasional: Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
     caseStudy: {
       problem:
         "Pengelolaan operasional bank sampah masih mengandalkan pencatatan buku besar secara manual. Hal ini menyebabkan potensi kesalahan input, kesulitan dalam penelusuran riwayat transaksi, serta ketidakmampuan untuk mendapatkan gambaran data yang real-time dan akurat mengenai kinerja bank sampah, termasuk jumlah nasabah aktif, jenis dan volume sampah yang terkumpul, serta total poin atau nilai finansial yang terakumulasi.",
@@ -83,18 +83,18 @@ export const projects: Project[] = [
       solution:
         "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
       process: [
-        "Gathered requirements and designed user flows",
-        "Created database schema and API architecture",
-        "Implemented frontend with React and TypeScript",
-        "Built RESTful API with proper authentication",
-        "Deployed and tested with real user feedback",
+        "Observasi lapangan dan wawancara bersama pengurus Bank Sampah RW 042 untuk memetakan kebutuhan fungsional & non-fungsional.",
+        "Perancangan arsitektur basis data (ERD 13 entitas, LRS, Spesifikasi File) dan diagram alur sistem UML (Use Case, Activity, Sequence, Class Diagram).",
+        "Pembuatan purwarupa dan alur antarmuka pengguna interaktif menggunakan Figma.",
+        "Koding modul inti (Autentikasi Multi-Role, Transaksi Multi-Baris, Penarikan Dana, Penjualan Pengepul, dan Algoritma SAW) menggunakan pendekatan Agile Scrum",
+        "Eksekusi 45 skenario *Black-Box Testing* serta pengujian penerimaan pengguna (User Acceptance Testing / UAT) bersama pengurus RW dan perwakilan nasabah.",
       ],
       technology:
-        "React + TypeScript for the frontend, Next.js for SSR and API routes, PostgreSQL for data persistence, Tailwind CSS for styling.",
+        "PHP + Laravel, API routes, PostgreSQL untuk basis data, Tailwind CSS untuk styling.",
       result:
-        "Delivered a responsive web app with authentication, real-time task updates, and project analytics dashboard. Received positive feedback from test users.",
+        "100% Digitalisasi Operasional:Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
       lessonsLearned:
-        "Full-stack development requires careful planning of data flow between frontend and backend. TypeScript proved invaluable for catching bugs early in the development cycle.",
+        "Menyelesaikan kebutuhan pencatatan sampah multi-jenis melalui pembangunan formulir dinamis (*dynamic multi-row input*) berbasis JavaScript array.",
     },
   },
   {
