@@ -71,7 +71,7 @@ export const projects: Project[] = [
     shortDescription:
       "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
     category: "Web",
-    techStack: ["Laravel", "Tailwind CSS", "MySQL"],
+    techStack: ["JavaScript", "Laravel", "Tailwind CSS", "MySQL"],
     image: "/projects/task-management.webp",
     githubUrl: "https://github.com/fathurrahmanrifaldi/basara",
     liveUrl: "https://fathurrahmanrifaldi.vercel.app",
@@ -90,7 +90,7 @@ export const projects: Project[] = [
         "Eksekusi 45 skenario *Black-Box Testing* serta pengujian penerimaan pengguna (User Acceptance Testing / UAT) bersama pengurus RW dan perwakilan nasabah.",
       ],
       technology:
-        "PHP + Laravel, API routes, PostgreSQL untuk basis data, Tailwind CSS untuk styling.",
+        "JavaScript, Laravel, API routes, PostgreSQL untuk basis data, Tailwind CSS untuk styling.",
       result:
         "100% Digitalisasi Operasional:Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
       lessonsLearned:

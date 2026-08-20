@@ -24,9 +24,9 @@ import { useReducedMotion } from "../../hooks/useReducedMotion";
 const technologyUsage = [
   { name: "Python", value: 85, fill: "#06B6D4" },
   { name: "SQL", value: 78, fill: "#3B82F6" },
-  { name: "JavaScript", value: 72, fill: "#8B5CF6" },
+  { name: "Power BI", value: 72, fill: "#F59E0B" },
   { name: "PHP", value: 65, fill: "#10B981" },
-  { name: "Power BI", value: 58, fill: "#F59E0B" }, 
+  { name: "JavaScript", value: 58, fill: "#8B5CF6" }, 
 ];
 
 const learningHours = [
