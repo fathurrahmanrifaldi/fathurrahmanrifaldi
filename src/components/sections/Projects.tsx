@@ -63,20 +63,15 @@ export default function Projects() {
               >
                 {/* Project image area */}
                 <div className="relative h-48 bg-gradient-to-br from-bg-secondary to-bg-card overflow-hidden">
-                  <div className="absolute inset-0 bg-grid opacity-20" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-16 h-16 mx-auto rounded-xl bg-gradient-to-br from-accent-cyan/20 to-accent-violet/20 border border-border flex items-center justify-center mb-3">
-                        <span className="text-2xl font-bold gradient-text-cyan">
-                          {project.title.charAt(0)}
-                        </span>
-                      </div>
-                      <span className="text-xs text-text-muted font-medium uppercase tracking-wider">
-                        {project.category}
-                      </span>
-                    </div>
-                  </div>
-                  <div className="absolute inset-0 bg-gradient-to-t from-bg-card via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <img
+                    src={project.image}
+                    alt={`Preview ${project.title}`}
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-bg-card via-transparent to-transparent" />
+                  <span className="absolute bottom-4 left-4 text-xs text-white font-medium uppercase tracking-wider">
+                    {project.category}
+                  </span>
                 </div>
 
                 {/* Project info */}

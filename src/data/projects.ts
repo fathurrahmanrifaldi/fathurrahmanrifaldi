@@ -1,9 +1,7 @@
 export type ProjectCategory =
   | "All"
   | "Data"
-  | "Web"
-  | "System"
-  | "UI/UX";
+  | "Web";
 
 export interface Project {
   id: string;
@@ -40,7 +38,7 @@ export const projects: Project[] = [
       "Melakukan pembersihan, pengolahan, dan analisis dataset transaksi ritel (25.000+ baris) menggunakan Excel. Mencakup penanganan data anomali, penyusunan laporan terdokumentasi, serta troubleshooting kendala teknis pengolahan data dan menghasilkan insight bisnis yang actionable.",
     category: "Data",
     techStack: ["Excel", "Data Cleaning", "Pivot Tables", "Power BI"],
-    image: "/projects/online-retail.webp",
+    image: "/projects/project1.png",
     githubUrl: "https://github.com/fathurrahmanrifaldi/online-retail-transaction-analysis",
     impact: "Mengidentifikasi total pendapatan bersih sebesar £10.259.030,24 dari 19.776 transaksi dengan rata-rata nilai pesanan (AOV) sebesar £518,76.",
     caseStudy: {
@@ -72,7 +70,7 @@ export const projects: Project[] = [
       "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
     category: "Web",
     techStack: ["JavaScript", "Laravel", "Tailwind CSS", "MySQL"],
-    image: "/projects/task-management.webp",
+    image: "/projects/project2.png",
     githubUrl: "https://github.com/fathurrahmanrifaldi/basara",
     liveUrl: "https://fathurrahmanrifaldi.vercel.app",
     impact: "100% Digitalisasi Operasional: Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
@@ -104,7 +102,7 @@ export const projects: Project[] = [
       "Analisis data penjualan Superstore (2015–2018) menggunakan Excel, mulai dari data cleaning, pivot summary, visualisasi, hingga dashboard interaktif dan rekomendasi bisnis.",
     category: "Data",
     techStack: ["Excel", "Data Cleaning", "Pivot Tables", "Power BI"],
-    image: "/projects/bi-dashboard.webp",
+    image: "/projects/project3.png",
     githubUrl: "https://github.com/fathurrahmanrifaldi/Superstore_Sales_Analysis",
     impact: "Mengidentifikasi kategori dan produk dengan performa terbaik, Mengetahui region dan segmen pelanggan yang memberikan kontribusi terbesar, Memahami pola tren dan musim penjualan, serta Menentukan area yang memiliki peluang untuk dikembangkan.",
     caseStudy: {
