@@ -39,10 +39,10 @@ export const projects: Project[] = [
     shortDescription:
       "Melakukan pembersihan, pengolahan, dan analisis dataset transaksi ritel (25.000+ baris) menggunakan Excel. Mencakup penanganan data anomali, penyusunan laporan terdokumentasi, serta troubleshooting kendala teknis pengolahan data dan menghasilkan insight bisnis yang actionable.",
     category: "Data",
-    techStack: ["Excel", "Power BI"],
+    techStack: ["Excel", "Data Cleaning", "Pivot Tables", "Power BI"],
     image: "/projects/online-retail.webp",
     githubUrl: "https://github.com/fathurrahmanrifaldi/online-retail-transaction-analysis",
-    impact: "Mengidentifikasi total pendapatan bersih sebesar £10.259.030,24 dari 19.776 transaksi dengan rata-rata nilai pesanan (AOV) sebesar £518,76..",
+    impact: "Mengidentifikasi total pendapatan bersih sebesar £10.259.030,24 dari 19.776 transaksi dengan rata-rata nilai pesanan (AOV) sebesar £518,76.",
     caseStudy: {
       problem:
         "Bisnis ritel online memiliki volume data transaksi mentah yang sangat besar (>25.000 baris) namun belum terstruktur dan masih mengandung banyak noise (duplikasi, transaksi batal, penyesuaian stok, dan anomali data non-penjualan)",
