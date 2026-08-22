@@ -22,7 +22,12 @@ export const skillCategories: SkillCategory[] = [
       {
         name: "Excel",
         icon: "Table",
-        description: "Advanced analysis, pivot tables, and modeling",
+        description: "Pivot tables, Lookups, IF, SUMIFS",
+      },
+      {
+        name: "Google Sheets",
+        icon: "FileSpreadsheet",
+        description: "Cloud-based spreadsheet for collaborative data analysis",
       },
       {
         name: "PostgreSQL",
@@ -39,11 +44,6 @@ export const skillCategories: SkillCategory[] = [
         icon: "AreaChart",
         description: "Business intelligence dashboards and reports",
       },      
-      {
-        name: "Data Visualization",
-        icon: "LineChart",
-        description: "Communicating insights through effective visuals",
-      },
     ],
   },
   {
