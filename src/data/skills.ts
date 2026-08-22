@@ -15,7 +15,7 @@ export interface SkillCategory {
 export const skillCategories: SkillCategory[] = [
   {
     id: "data",
-    title: "Data & Office",
+    title: "Data & Analytics",
     icon: "BarChart3",
     description: "Turning data into actionable insights",
     skills: [
@@ -25,18 +25,18 @@ export const skillCategories: SkillCategory[] = [
         description: "Advanced analysis, pivot tables, and modeling",
       },
       {
-        name: "Google Workspace",
-        icon: "FileSpreadsheet",
-        description: "Collaboration and productivity tools for teams",
+        name: "PostgreSQL",
+        icon: "Database",
+        description: "Relational database management system for structured data",
       },
       {
-        name: "Microsoft Office Suite",
-        icon: "AreaChart",
-        description: "Document creation, presentations, and spreadsheets",
+        name: "Dbeaver",
+        icon: "DatabaseCheck",
+        description: "Universal database tool for developers and data analysts",
       },
       {
         name: "Power BI",
-        icon: "PieChart",
+        icon: "AreaChart",
         description: "Business intelligence dashboards and reports",
       },      
       {
@@ -78,7 +78,7 @@ export const skillCategories: SkillCategory[] = [
 
       {
         name: "Laravel",
-        icon: "Globe",
+        icon: "Box",
         description: "PHP framework for web application development",
       },
       {
