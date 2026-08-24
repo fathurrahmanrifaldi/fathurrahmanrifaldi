@@ -73,7 +73,7 @@ export const projects: Project[] = [
     image: "/projects/project-gym.png",
     githubUrl: "https://github.com/fathurrahmanrifaldi/dr-gym-fitness",
     liveUrl: "https://drgymfitness.vercel.app",
-    impact: "Digital Presence & Conversion: Membangun landing page profesional yang mengintegrasikan informasi fasilitas, trainer, membership, jam operasional, lokasi, dan CTA WhatsApp dalam satu alur yang terstruktur untuk memudahkan calon member mengambil keputusan.",
+    impact: "Membangun landing page profesional yang mengintegrasikan informasi fasilitas, trainer, membership, jam operasional, lokasi, dan CTA WhatsApp dalam satu alur yang terstruktur untuk memudahkan calon member mengambil keputusan.",
     caseStudy: {
       problem:
         "Dr. Gym Fitness membutuhkan media digital yang mampu memperkenalkan bisnis kepada calon member secara profesional. Informasi seperti fasilitas, harga membership, layanan Personal Trainer, trainer, jam operasional, lokasi, dan kontak perlu disajikan secara terstruktur agar calon member dapat memahami value gym dan mengambil keputusan tanpa harus mencari informasi dari berbagai sumber.",
