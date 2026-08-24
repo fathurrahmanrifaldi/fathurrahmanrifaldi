@@ -64,35 +64,35 @@ export const projects: Project[] = [
     },
   },
   {
-    id: "task-management-app",
-    title: "Sistem Informasi Manajemen BASARA (Bank Sampah RW 42)",
+    id: "dr-gym-fitness",
+    title: "Website Company Profile Dr. Gym Fitness",
     shortDescription:
-      "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
+      "Website company profile dan landing page modern untuk Dr. Gym Fitness, sebuah gym lokal di Tambun Selatan, Bekasi. Website dirancang untuk memperkuat identitas digital gym, menampilkan fasilitas, trainer bersertifikasi, pilihan membership, layanan Personal Trainer, serta mengarahkan calon member untuk melakukan kontak melalui WhatsApp.",
     category: "Web",
-    techStack: ["JavaScript", "Laravel", "Tailwind CSS", "MySQL"],
-    image: "/projects/project2.png",
-    githubUrl: "https://github.com/fathurrahmanrifaldi/basara",
-    liveUrl: "https://fathurrahmanrifaldi.vercel.app",
-    impact: "100% Digitalisasi Operasional: Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
+    image: "/projects/project-gym.png",
+    githubUrl: "https://github.com/fathurrahmanrifaldi/dr-gym-fitness",
+    liveUrl: "https://drgymfitness.vercel.app",
+    impact: "Digital Presence & Conversion: Membangun landing page profesional yang mengintegrasikan informasi fasilitas, trainer, membership, jam operasional, lokasi, dan CTA WhatsApp dalam satu alur yang terstruktur untuk memudahkan calon member mengambil keputusan.",
     caseStudy: {
       problem:
-        "Pengelolaan operasional bank sampah masih mengandalkan pencatatan buku besar secara manual. Hal ini menyebabkan potensi kesalahan input, kesulitan dalam penelusuran riwayat transaksi, serta ketidakmampuan untuk mendapatkan gambaran data yang real-time dan akurat mengenai kinerja bank sampah, termasuk jumlah nasabah aktif, jenis dan volume sampah yang terkumpul, serta total poin atau nilai finansial yang terakumulasi.",
-      goal: "Membangun sebuah sistem informasi berbasis web yang mampu mendigitalisasi, mengotomatiskan, dan mengintegrasikan seluruh proses operasional bank sampah, mulai dari pendataan nasabah, pencatatan jenis sampah, input dan validasi transaksi setoran, perhitungan saldo (poin), hingga visualisasi data dalam bentuk laporan dan dashboard.",
+        "Dr. Gym Fitness membutuhkan media digital yang mampu memperkenalkan bisnis kepada calon member secara profesional. Informasi seperti fasilitas, harga membership, layanan Personal Trainer, trainer, jam operasional, lokasi, dan kontak perlu disajikan secara terstruktur agar calon member dapat memahami value gym dan mengambil keputusan tanpa harus mencari informasi dari berbagai sumber.",
+      goal: "Membangun website company profile yang modern, responsive, informatif, dan conversion-focused untuk memperkuat kehadiran digital Dr. Gym Fitness sekaligus memudahkan calon member menemukan informasi penting dan menghubungi gym melalui WhatsApp",
       solution:
-        "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
+        "Membangun website one-page modern dengan pendekatan dark navy dan electric blue yang menampilkan seluruh informasi utama Dr. Gym Fitness dalam alur yang terstruktur, mulai dari brand introduction, fasilitas, trainer bersertifikasi, membership, Personal Trainer, jam operasional, testimonial, hingga lokasi dan kontak. CTA WhatsApp ditempatkan sebagai conversion point utama untuk mengurangi friction calon member dalam menghubungi gym.",
       process: [
-        "Observasi lapangan dan wawancara bersama pengurus Bank Sampah RW 042 untuk memetakan kebutuhan fungsional & non-fungsional.",
-        "Perancangan arsitektur basis data (ERD 13 entitas, LRS, Spesifikasi File) dan diagram alur sistem UML (Use Case, Activity, Sequence, Class Diagram).",
-        "Pembuatan purwarupa dan alur antarmuka pengguna interaktif menggunakan Figma.",
-        "Koding modul inti (Autentikasi Multi-Role, Transaksi Multi-Baris, Penarikan Dana, Penjualan Pengepul, dan Algoritma SAW) menggunakan pendekatan Agile Scrum",
-        "Eksekusi 45 skenario *Black-Box Testing* serta pengujian penerimaan pengguna (User Acceptance Testing / UAT) bersama pengurus RW dan perwakilan nasabah.",
+        "Menganalisis kebutuhan bisnis dan menentukan tujuan utama website berdasarkan kebutuhan informasi dan conversion calon member.",
+        "Menyusun struktur konten dan user flow dari pengenalan gym, fasilitas, trainer, pricing, hingga CTA WhatsApp.",
+        "Merancang visual direction dengan konsep Dark Navy + Electric Blue untuk menciptakan identitas yang modern, energetic, professional, dan tetap approachable.",
+        "Mengembangkan reusable component seperti Navbar, Hero, Facility Card, Trainer Card, Pricing Card, CTA, Contact, dan Footer menggunakan pendekatan component-based.",
+        "Mengimplementasikan responsive design untuk mobile, tablet, dan desktop dengan fokus pada readability, accessibility, dan kemudahan navigasi.",
       ],
       technology:
-        "JavaScript, Laravel, API routes, PostgreSQL untuk basis data, Tailwind CSS untuk styling.",
+        "Next.js dan TypeScript digunakan untuk membangun struktur aplikasi dan component-based architecture, sedangkan Tailwind CSS digunakan untuk styling, responsive layout, dan visual design.",
       result:
-        "100% Digitalisasi Operasional:Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
+        "Menghasilkan website company profile yang menyatukan seluruh informasi penting Dr. Gym Fitness dalam satu platform digital dengan alur Landing → Explore → Trust → Pricing → WhatsApp, sehingga calon member dapat memahami layanan, membandingkan harga, mengetahui lokasi, dan menghubungi gym dengan lebih mudah",
       lessonsLearned:
-        "Menyelesaikan kebutuhan pencatatan sampah multi-jenis melalui pembangunan formulir dinamis (*dynamic multi-row input*) berbasis JavaScript array.",
+        "Mempelajari bahwa pembuatan website bisnis tidak hanya berfokus pada tampilan visual, tetapi juga harus mempertimbangkan business objective, user journey, information hierarchy, conversion point, responsive experience, dan bagaimana setiap section mendukung keputusan pengguna.",
     },
   },
   {
@@ -124,6 +124,38 @@ export const projects: Project[] = [
         "Mengidentifikasi kategori produk dengan penjualan tertinggi, tren musiman, dan rekomendasi strategi pemasaran untuk meningkatkan pendapatan.",
       lessonsLearned:
         "Dari project ini, saya belajar bahwa data cleaning merupakan fondasi penting sebelum melakukan analisis karena kualitas data sangat memengaruhi hasil insight, Selain itu, saya belajar bagaimana mengubah data mentah menjadi summary, visualisasi, dashboard, dan rekomendasi bisnis yang lebih mudah dipahami.",
+    },
+  },
+  {
+    id: "task-management-app",
+    title: "Sistem Informasi Manajemen BASARA (Bank Sampah RW 42)",
+    shortDescription:
+      "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
+    category: "Web",
+    techStack: ["JavaScript", "Laravel", "Tailwind CSS", "MySQL"],
+    image: "/projects/project2.png",
+    githubUrl: "https://github.com/fathurrahmanrifaldi/basara",
+    liveUrl: "https://fathurrahmanrifaldi.vercel.app",
+    impact: "100% Digitalisasi Operasional: Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
+    caseStudy: {
+      problem:
+        "Pengelolaan operasional bank sampah masih mengandalkan pencatatan buku besar secara manual. Hal ini menyebabkan potensi kesalahan input, kesulitan dalam penelusuran riwayat transaksi, serta ketidakmampuan untuk mendapatkan gambaran data yang real-time dan akurat mengenai kinerja bank sampah, termasuk jumlah nasabah aktif, jenis dan volume sampah yang terkumpul, serta total poin atau nilai finansial yang terakumulasi.",
+      goal: "Membangun sebuah sistem informasi berbasis web yang mampu mendigitalisasi, mengotomatiskan, dan mengintegrasikan seluruh proses operasional bank sampah, mulai dari pendataan nasabah, pencatatan jenis sampah, input dan validasi transaksi setoran, perhitungan saldo (poin), hingga visualisasi data dalam bentuk laporan dan dashboard.",
+      solution:
+        "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
+      process: [
+        "Observasi lapangan dan wawancara bersama pengurus Bank Sampah RW 042 untuk memetakan kebutuhan fungsional & non-fungsional.",
+        "Perancangan arsitektur basis data (ERD 13 entitas, LRS, Spesifikasi File) dan diagram alur sistem UML (Use Case, Activity, Sequence, Class Diagram).",
+        "Pembuatan purwarupa dan alur antarmuka pengguna interaktif menggunakan Figma.",
+        "Koding modul inti (Autentikasi Multi-Role, Transaksi Multi-Baris, Penarikan Dana, Penjualan Pengepul, dan Algoritma SAW) menggunakan pendekatan Agile Scrum",
+        "Eksekusi 45 skenario *Black-Box Testing* serta pengujian penerimaan pengguna (User Acceptance Testing / UAT) bersama pengurus RW dan perwakilan nasabah.",
+      ],
+      technology:
+        "JavaScript, Laravel, API routes, PostgreSQL untuk basis data, Tailwind CSS untuk styling.",
+      result:
+        "100% Digitalisasi Operasional:Seluruh alur pencatatan setoran sampah, mutasi saldo, penjualan ke pengepul, dan pembuatan laporan keuangan terkelola secara otomatis dan digital.",
+      lessonsLearned:
+        "Menyelesaikan kebutuhan pencatatan sampah multi-jenis melalui pembangunan formulir dinamis (*dynamic multi-row input*) berbasis JavaScript array.",
     },
   },
 ];
