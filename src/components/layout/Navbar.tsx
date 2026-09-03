@@ -33,10 +33,13 @@ export default function Navbar() {
 
   const handleNavClick = (href: string) => {
     setIsOpen(false);
-    const el = document.querySelector(href);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
+    document.body.style.overflow = "";
+    setTimeout(() => {
+      const el = document.querySelector(href);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
   };
 
   return (
@@ -55,6 +58,10 @@ export default function Navbar() {
           {/* Logo */}
           <a
             href="#home"
+            onClick={(e) => {
+              e.preventDefault();
+              handleNavClick("#home");
+            }}
             className="text-lg font-bold tracking-tight text-text-primary hover:text-accent-cyan transition-colors"
             aria-label="Go to home"
           >
@@ -82,6 +89,10 @@ export default function Navbar() {
             ))}
             <a
               href="#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick("#contact");
+              }}
               className="ml-4 inline-flex items-center gap-1.5 px-5 py-2.5 text-sm font-medium rounded-lg bg-gradient-to-r from-accent-cyan to-accent-blue text-bg-primary hover:shadow-[0_0_20px_rgba(6,182,212,0.3)] transition-all duration-300 hover:scale-[1.02]"
             >
               Let&apos;s Connect
@@ -132,7 +143,10 @@ export default function Navbar() {
               <div className="pt-4">
                 <a
                   href="#contact"
-                  onClick={() => setIsOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavClick("#contact");
+                  }}
                   className="block w-full text-center px-5 py-3 text-sm font-medium rounded-lg bg-gradient-to-r from-accent-cyan to-accent-blue text-bg-primary"
                 >
                   Let&apos;s Connect

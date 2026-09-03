@@ -6,34 +6,38 @@ export interface Certification {
   category: string;
   credentialUrl?: string;
   icon: string;
+  image?: string;
 }
 
 export const certifications: Certification[] = [
   {
-    id: "database-cert",
+    id: "bnsp-database-admin",
     name: "Database Administrator Certificate",
     issuer: "Badan Nasional Sertifikasi Profesi",
     date: "2026",
     category: "Database",
     credentialUrl: "#",
     icon: "Database",
+    image: "/certificates/dba.png",
   },
   {
-    id: "data-analytics-cert",
+    id: "ibm-data-fundamentals",
     name: "Data Fundamentals",
     issuer: "IBM SkillsBuild",
     date: "2026",
     category: "Data Analytics",
     credentialUrl: "#",
     icon: "BarChart3",
+    image: "/certificates/dba.png",
   },
   {
-    id: "data-analytics-cert",
+    id: "coursera-data-analytics",
     name: "Data Analytics Professional Certificate",
     issuer: "Coursera",
     date: "2026",
     category: "Data Analytics",
     credentialUrl: "#",
     icon: "BarChart3",
+    image: "/certificates/dba.png",
   },
 ];

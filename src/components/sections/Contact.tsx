@@ -128,7 +128,7 @@ export default function Contact() {
                 <CheckCircle className="w-12 h-12 text-accent-emerald mb-4" />
                 <h3 className="text-xl font-semibold text-text-primary mb-2">Message Received!</h3>
                 <p className="text-sm text-text-secondary max-w-sm mb-6">
-                  Thank you for reaching out. This is a frontend demo — to actually send messages, integrate with an email service like EmailJS or Formspree.
+                  Thank you for reaching out. This is a frontend demo.
                 </p>
                 <Button
                   variant="secondary"
