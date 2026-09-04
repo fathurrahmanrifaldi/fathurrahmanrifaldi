@@ -26,18 +26,9 @@ export const certifications: Certification[] = [
     issuer: "IBM SkillsBuild",
     date: "2026",
     category: "Data Analytics",
-    credentialUrl: "#",
+    credentialUrl: "https://www.credly.com/badges/d37dd459-d5a4-459e-b3b9-3f2120c8baec/public_url",
     icon: "BarChart3",
-    image: "/certificates/dba.png",
+    image: "/certificates/data-fundamental.png",
   },
-  {
-    id: "coursera-data-analytics",
-    name: "Data Analytics Professional Certificate",
-    issuer: "Coursera",
-    date: "2026",
-    category: "Data Analytics",
-    credentialUrl: "#",
-    icon: "BarChart3",
-    image: "/certificates/dba.png",
-  },
+
 ];
