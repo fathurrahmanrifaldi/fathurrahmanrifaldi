@@ -34,7 +34,7 @@ export const personal = {
   stats: {
     projectsCompleted: 10,
     technologiesExplored: 8,
-    certifications: 3,
+    certifications: 2,
     yearsLearning: 3,
   },
   seo: {
