@@ -53,15 +53,15 @@ export const skillCategories: SkillCategory[] = [
     description: "Core languages for building solutions",
     skills: [
       {
-        name: "Python",
-        icon: "FileCode",
-        description: "Data analysis, scripting, and automation",
-      },
-      {
         name: "SQL",
         icon: "Database",
         description: "Database querying and data manipulation",
       },
+      {
+        name: "Python",
+        icon: "FileCode",
+        description: "Data analysis, scripting, and automation",
+      },      
     ],
   },
   {
