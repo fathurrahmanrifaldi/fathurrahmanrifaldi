@@ -32,35 +32,34 @@ export const projectCategories: ProjectCategory[] = [
 
 export const projects: Project[] = [
   {
-    id: "online-retail",
+    id: "olist-ecommerce",
     title: "Olist E-Commerce Sales & Customer Analytics",
     shortDescription:
-      "This project analyzes the Brazilian E-Commerce Public Dataset by Olist to evaluate sales performance, customer behavior, delivery performance, and customer satisfaction.",
+      "Analisis end-to-end terhadap performa bisnis dan perilaku pelanggan pada Brazilian E-Commerce Public Dataset by Olist (±99K orders, 2016–2018).",
     category: "Data",
-    techStack: ["SQL", "PostgreSQL", "Power BI"],
+    techStack: ["SQL", "PostgreSQL", "Power BI", "Git & GitHub"],
     image: "/projects/olist.png",
     githubUrl: "https://github.com/fathurrahmanrifaldi/olist-ecommerce-business-analytics",
-    impact: "Successfully mapped monthly revenue trends, customer satisfaction scores, delivery performance, and customer segmentation using RFM analysis, resulting in actionable insights for business improvement.",
+    impact: "Menghasilkan insight mengenai revenue, customer behavior, kategori produk, seller, delivery, dan customer satisfaction untuk mendukung analisis bisnis.",
     caseStudy: {
       problem:
-        "The online retail business has a very large volume of raw transaction data (>25,000 rows) but is unstructured and still contains a lot of noise (duplicates, cancelled transactions, stock adjustments, and non-sales data anomalies)",
-      goal: "Mengaudit dan membersihkan dataset transaksi menjadi basis data analitis yang valid dan siap olah, serta Merumuskan rekomendasi bisnis strategis yang konkret untuk meningkatkan pendapatan, retensi pelanggan, dan efisiensi operasional rantai pasok.",
+        "Bagaimana memahami performa bisnis, perilaku pelanggan, kontribusi produk/seller, serta hubungan antara delivery dan customer satisfaction?",
+      goal: "Mengubah data mentah menjadi actionable business insights untuk memahami performa dan area yang perlu ditingkatkan.",
       solution:
-        "Membangun workbook analisis terstruktur menggunakan Microsoft Excel yang memisahkan data transaksi bersih, data pembatalan (cancellation), log audit pembersihan, tabel agregasi pivot, dan ringkasan eksekutif.",
+        "Melakukan data cleaning, validation, SQL analysis, dan membangun dashboard interaktif untuk memvisualisasikan KPI serta business insights.",
       process: [
-        "Menghapus 5.268 baris duplikasi identik (exact duplicates).",
-        "Memisahkan 9.251 baris transaksi batal (faktur berawalan 'C') ke lembar kerja terpisah.",
-        "Menghitung metrik total omzet, rata-rata nilai pesanan (AOV), total volume transaksi, dan katalog produk aktif",
-        "Mengagregasi data bulanan untuk melihat tren musiman dan dampak holiday season.",
-        "Membentuk tabel matriks RFM (Recency, Frequency, Monetary) pada pelanggan terdaftar untuk mengidentifikasi segmen bernilai tinggi (high-value customers)",
-        "Menyusun laporan ringkasan eksekutif dan menerjemahkan temuan data menjadi rekomendasi operasional serta strategi pemasaran.",
+        "Data Validation & Cleaning.",    
+        "SQL Analysis",    
+        "KPI & DAX",    
+        "Power BI Dashboard",
+        "Business Insights"
       ],
       technology:
-        "Microsoft Excel: Digunakan secara menyeluruh untuk data cleaning, pemodelan formula/KPI (SUM, COUNTIF, AVERAGE, dll.), perancangan Pivot Tables, serta visualisasi dan penyusunan struktur laporan.",
+        "PostgreSQL, SQL, Power BI, DAX, Git & GitHub",
       result:
-        "Mengidentifikasi total pendapatan bersih sebesar £10.259.030,24 dari 19.776 transaksi dengan rata-rata nilai pesanan (AOV) sebesar £518,76 dan Terpetakan lonjakan pendapatan signifikan pada Q4 (Sep–Nov 2011) dengan puncak di November 2011 (~£1,45 Juta) akibat belanja Natal.",
+        "Revenue ± R$13.60M, 99,441 orders dan 96,096 customers, Repeat customer rate 3.12%, Top 10% customers menyumbang 41.23% revenue, Late delivery rate 8.11%, Late delivery memiliki asosiasi dengan review score yang lebih rendah.",
       lessonsLearned:
-        "Pentingnya Data Bersih: Membuktikan bahwa kualitas data—melalui proses cleaning yang cermat—adalah fondasi utama untuk menghasilkan analisis yang akurat dan insight bisnis yang valid. Kemampuan Menerjemahkan Data menjadi Narasi Bisnis: Belajar mengubah tabel dan angka mentah menjadi laporan strategis yang mudah dipahami oleh pengambil keputusan, termasuk identifikasi tren musiman dan rekomendasi taktis berbasis data.",
+        "Pentingnya data validation dan data grain sebelum analisis. Performa bisnis perlu dilihat dari beberapa metrik, bukan hanya revenue. Correlation ≠ causation dalam interpretasi data. Dashboard yang baik harus menghubungkan data dengan business questions."
     },
   },
   {
