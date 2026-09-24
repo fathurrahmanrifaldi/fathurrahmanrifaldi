@@ -66,9 +66,9 @@ export const projects: Project[] = [
     id: "online-retail",
     title: "Analisis & Pengolahan Data Ritel Skala Besar",
     shortDescription:
-      "Melakukan pembersihan, pengolahan, dan analisis dataset transaksi ritel (25.000+ baris) menggunakan Excel. Mencakup penanganan data anomali, penyusunan laporan terdokumentasi, serta troubleshooting kendala teknis pengolahan data dan menghasilkan insight bisnis yang actionable.",
+      "Melakukan pembersihan, pengolahan, dan analisis dataset transaksi ritel (25.000+ baris) menggunakan Power BI. Mencakup penanganan data anomali, penyusunan laporan terdokumentasi, serta troubleshooting kendala teknis pengolahan data dan menghasilkan insight bisnis yang actionable.",
     category: "Data",
-    techStack: ["Excel", "Power BI"],
+    techStack: ["Power BI"],
     image: "/projects/retail.png",
     githubUrl: "https://github.com/fathurrahmanrifaldi/online-retail-transaction-analysis",
     impact: "Mengidentifikasi total pendapatan bersih sebesar £10.259.030,24 dari 19.776 transaksi dengan rata-rata nilai pesanan (AOV) sebesar £518,76.",
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     shortDescription:
       "Analisis data penjualan Superstore (2015–2018) menggunakan Excel, mulai dari data cleaning, pivot summary, visualisasi, hingga dashboard interaktif dan rekomendasi bisnis.",
     category: "Data",
-    techStack: ["Excel","Power BI"],
+    techStack: ["Excel"],
     image: "/projects/superstore.png",
     githubUrl: "https://github.com/fathurrahmanrifaldi/Superstore_Sales_Analysis",
     impact: "Mengidentifikasi kategori dan produk dengan performa terbaik, Mengetahui region dan segmen pelanggan yang memberikan kontribusi terbesar, Memahami pola tren dan musim penjualan, serta Menentukan area yang memiliki peluang untuk dikembangkan.",

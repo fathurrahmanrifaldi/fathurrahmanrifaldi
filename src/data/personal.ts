@@ -14,7 +14,7 @@ export const personal = {
   profileImage,
   resumeUrl: "#",
   bio: [
-    "Final-year Information Systems student specializing in Data Analytics and Business Intelligence. I transform raw, complex data into clear strategic insights, combining strong analytical thinking with hands-on expertise in Python, SQL, Excel, and Power BI.",
+    "Final-year Information Systems student specializing in Data Analytics and Business Intelligence. I transform raw, complex data into clear strategic insights, combining strong analytical thinking with hands-on expertise in SQL, Python, Excel, and Power BI.",
     "Backed by a national BNSP Database Administrator certification, I have a solid technical foundation in database management and data modeling. I don't just query data, I bridge database architecture with real-world business context to build intuitive dashboards and drive data-driven decision-making.",
     "Detail-oriented and eager to tackle real-world business challenges, I am actively seeking a Data Analyst Internship or Junior Data Analyst role where I can contribute to optimizing processes and delivering measurable business impact.",
   ],
@@ -34,7 +34,7 @@ export const personal = {
   stats: {
     projectsCompleted: 10,
     technologiesExplored: 8,
-    certifications: 2,
+    certifications: 3,
     yearsLearning: 3,
   },
   seo: {

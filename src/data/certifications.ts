@@ -30,5 +30,15 @@ export const certifications: Certification[] = [
     icon: "BarChart3",
     image: "/certificates/data-fundamental.png",
   },
+  {
+    id: "ibm-getting-started-data-analytics",
+    name: "Getting Started with Data Analytics",
+    issuer: "IBM SkillsBuild",
+    date: "2026",
+    category: "Data Analytics",
+    credentialUrl: "https://www.credly.com/earner/earned/share/f4dfd2c7-a805-4c7a-b051-47788aed69e5",
+    icon: "BarChart3",
+    image: "/certificates/getting_started_data.png",
+  },
 
 ];
