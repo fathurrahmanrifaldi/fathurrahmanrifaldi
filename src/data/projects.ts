@@ -77,7 +77,7 @@ export const projects: Project[] = [
         "Bisnis ritel online memiliki volume data transaksi mentah yang sangat besar (>25.000 baris) namun belum terstruktur dan masih mengandung banyak noise (duplikasi, transaksi batal, penyesuaian stok, dan anomali data non-penjualan)",
       goal: "Mengaudit dan membersihkan dataset transaksi menjadi basis data analitis yang valid dan siap olah, serta Merumuskan rekomendasi bisnis strategis yang konkret untuk meningkatkan pendapatan, retensi pelanggan, dan efisiensi operasional rantai pasok.",
       solution:
-        "Membangun workbook analisis terstruktur menggunakan Microsoft Excel yang memisahkan data transaksi bersih, data pembatalan (cancellation), log audit pembersihan, tabel agregasi pivot, dan ringkasan eksekutif.",
+        "Membangun workbook analisis terstruktur menggunakan Power BI yang memisahkan data transaksi bersih, data pembatalan (cancellation), log audit pembersihan, tabel agregasi pivot, dan ringkasan eksekutif.",
       process: [
         "Menghapus 5.268 baris duplikasi identik (exact duplicates).",
         "Memisahkan 9.251 baris transaksi batal (faktur berawalan 'C') ke lembar kerja terpisah.",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
         "Menyusun laporan ringkasan eksekutif dan menerjemahkan temuan data menjadi rekomendasi operasional serta strategi pemasaran.",
       ],
       technology:
-        "Microsoft Excel: Digunakan secara menyeluruh untuk data cleaning, pemodelan formula/KPI (SUM, COUNTIF, AVERAGE, dll.), perancangan Pivot Tables, serta visualisasi dan penyusunan struktur laporan.",
+        "Power BI: Digunakan secara menyeluruh untuk pembersihan dan pengolahan data, pembuatan visualisasi dan dashboard interaktif, analisis metrik bisnis (AOV, RFM), serta penyusunan laporan ringkasan eksekutif.",
       result:
         "Mengidentifikasi total pendapatan bersih sebesar £10.259.030,24 dari 19.776 transaksi dengan rata-rata nilai pesanan (AOV) sebesar £518,76 dan Terpetakan lonjakan pendapatan signifikan pada Q4 (Sep–Nov 2011) dengan puncak di November 2011 (~£1,45 Juta) akibat belanja Natal.",
       lessonsLearned:
@@ -113,7 +113,7 @@ export const projects: Project[] = [
       process: [
         "pengecekan duplikat & missing value, konversi format tanggal, penambahan kolom turunan (Order Year, Month, YearMonth, Ship Duration).",
         "ringkasan penjualan per Category, Region, Segment, Ship Mode, dan Sub-Category menggunakan formula dinamis (SUMIF, COUNTIF, AVERAGEIF).",
-        "Visualization** — bar chart, line chart, dan pie chart untuk melihat tren dan komposisi penjualan.",
+        "Visualization — bar chart, line chart, dan pie chart untuk melihat tren dan komposisi penjualan.",
         "ringkasan interaktif dengan KPI cards dan kumpulan chart dalam satu tampilan.",
         "temuan bisnis dan rekomendasi strategis berdasarkan hasil analisis",
       ],
