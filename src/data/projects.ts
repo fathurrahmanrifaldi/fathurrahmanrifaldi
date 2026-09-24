@@ -163,7 +163,7 @@ export const projects: Project[] = [
     shortDescription:
       "Aplikasi sistem informasi berbasis web yang dirancang untuk mendigitalkan dan mengotomatiskan seluruh alur operasional Bank Sampah di RW 042 Kelurahan Bahagia, Kecamatan Babelan, Kabupaten Bekasi. Sistem ini mentransformasi pembukuan konvensional manual menjadi sistem digital yang terintegrasi, transparan, akurat, dan aman.",
     category: "Web",
-    techStack: ["JavaScript", "Laravel", "Tailwind CSS", "MySQL"],
+    techStack: ["JavaScript", "Tailwind CSS","Laravel", "MySQL"],
     image: "/projects/banksampah.png",
     githubUrl: "https://github.com/fathurrahmanrifaldi/basara",
     liveUrl: "https://fathurrahmanrifaldi.vercel.app",
