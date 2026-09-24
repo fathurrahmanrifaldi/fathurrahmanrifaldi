@@ -31,8 +31,8 @@ export const certifications: Certification[] = [
     image: "/certificates/data-fundamental.png",
   },
   {
-    id: "ibm-getting-started-data-analytics",
-    name: "Getting Started with Data Analytics",
+    id: "ibm-getting-started-data",
+    name: "Getting Started with Data",
     issuer: "IBM SkillsBuild",
     date: "2026",
     category: "Data Analytics",
